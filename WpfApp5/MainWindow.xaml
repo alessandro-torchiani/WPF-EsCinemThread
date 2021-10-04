@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="PRENOTAZIONE CINEMA" Height="450" Width="800" FontSize="20">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Image Margin="0,0,-0.4,0" Source="sfondo cinema.jpg" Stretch="Fill"/>
+        <Rectangle x:Name="rec1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="28,290,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Rectangle x:Name="rec2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="191,290,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Rectangle x:Name="rec3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="353,290,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Rectangle x:Name="rec4" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="514,290,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Rectangle x:Name="rec5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="671,290,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Label Content="1" HorizontalAlignment="Left" Margin="65,324,0,0" VerticalAlignment="Top"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="230,324,0,0" VerticalAlignment="Top"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="402,324,0,0" VerticalAlignment="Top"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="558,324,0,0" VerticalAlignment="Top"/>
+        <Label Content="5" HorizontalAlignment="Left" Margin="712,324,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn1" Content="CASSA 1 SCEGLI POSTO" HorizontalAlignment="Left" Margin="28,80,0,0" VerticalAlignment="Top" Width="236" Height="60" Click="btn1_Click_1"/>
+        <TextBox x:Name="txtBox1" HorizontalAlignment="Left" Height="36" Margin="28,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
+        <Button x:Name="btnCasuale1" Content="SCEGLI POSTO CASUALE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="28,140,0,0" Height="52" Click="btnCasuale1_Click"/>
+        <TextBox x:Name="txtBox2" HorizontalAlignment="Left" Height="36" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" Margin="545,44,0,0"/>
+        <Button x:Name="btn2" Content="CASSA 2 SCEGLI POSTO" HorizontalAlignment="Left" VerticalAlignment="Top" Width="226" Margin="545,80,0,0" Height="60" Click="btn2_Click_1"/>
+        <Button x:Name="btnCasuale2" Content="SCEGLI POSTO CASUALE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="226" Margin="545,140,0,0" Height="52" Click="btnCasuale2_Click"/>
+        <Button x:Name="btnSvuota" Content="SVUOTA POSTI" HorizontalAlignment="Left" Margin="339,99,0,0" VerticalAlignment="Top" Width="136" Height="75" Click="btnSvuota_Click_1"/>
+
+    </Grid>
+</Window>
